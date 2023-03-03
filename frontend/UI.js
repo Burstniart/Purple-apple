@@ -14,6 +14,12 @@ class UI {
 
     async addAppoint(formData) {
 	await appointmentService.postAppoint(formData);
+	this.clearAppointForm();
+    }
+
+    clearAppointForm() {
+	document.getElementById("myForm").style.display = "none";
+	document.getElementById("appoint-form").reset();
     }
 }
 

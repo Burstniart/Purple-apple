@@ -44,4 +44,10 @@ To handle form data after creating the Form Data Object:
 - The service method for "POST" uses a header indicating json format
 - The body element of the fetch request for POST applies JSON.stringify to the body of the request.
 
+Now that the frontend, the backend and the API all work launch it live
 
+Point the api to it's default route instead of the other server.
+
+Notes:
+- Display for cards with the appointments is still pending
+- the UI could use more in terms of style

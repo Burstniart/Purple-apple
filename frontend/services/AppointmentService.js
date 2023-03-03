@@ -3,7 +3,7 @@ class AppointmentService {
 
     constructor() {
 	// API route
-	this.URI = 'http://localhost:3000/api/appointment';
+	this.URI = '/api/appointment';
 	//this.URI = '/api/books';
     }
     
