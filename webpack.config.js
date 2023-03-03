@@ -15,8 +15,8 @@ module.exports = {
 	path: path.join(__dirname,'backend/public'),
 	filename: 'js/bundle.js'
     },
-    // for now
-    mode: 'development',
+    // Deployment ready
+    mode: 'production',
 
     // CSS Configuration
     module: {
